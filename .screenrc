@@ -1,0 +1,5 @@
+caption splitonly "%{= ky}%H-%n (%t)"
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{.kr}%-w%{.ky}%n-%t%{.kr}%+w %75=%{.kg}%H load: %l"  # sysload but no time/date
+#hardstatus string "%{.kr}%-w%{.ky}%n-%t%{.kr}%+w %35=%{.kg}%H load: %l %{.kc}%=%c  %{.km}%D %d %M %Y"  # sysload + time/date
