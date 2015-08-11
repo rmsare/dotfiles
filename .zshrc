@@ -45,7 +45,7 @@ alias grep='grep --color=auto'
 alias ll='ls -alF'
 alias la='ls -A'
 alias ls='ls -lh --color=auto'
-alias matlab='matlab -nodesktop - nosplash'
+alias matlab='matlab -nodesktop -nosplash'
 
 # set up path and ld path
 export PATH="$PATH:/home/rmsare/software/LAStools/bin/:/usr/lib/gmt/bin:/usr/local/texlive/2014/bin/i386-linux:/usr/local/MATLAB/R2012a/bin/:/home/rmsare/scripts/"
