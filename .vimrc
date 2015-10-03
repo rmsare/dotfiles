@@ -5,7 +5,6 @@ set nocompatible
 set shell=bash
 set fileformats=unix
 set textwidth=80
-set spell
 
 " window settings
 set hls
