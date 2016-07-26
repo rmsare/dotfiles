@@ -1,0 +1,14 @@
+[user]
+	name = rmsare
+	email = robertmsare@gmail.com
+[credentia]
+	helper = cache
+[color]
+	ui = always
+[commit]
+	template = /home/rmsare/.gitmessage.txt
+[help]
+	autocorrect = 1
+[core]
+	excludesfile = /home/rmsare/.gitignore_global
+	autocrlf = input
