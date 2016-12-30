@@ -1,6 +1,5 @@
 # .zshrc
 # rmsare
-# 20 July 2015
 
 # Set up the prompt
 autoload -Uz promptinit
@@ -45,6 +44,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias ls='ls -lh --color=auto'
 alias matlab='matlab -nodesktop -nosplash'
+alias clj='java -cp /opt/clojure-1.8.0/clojure-1.8.0.jar clojure.main'
 
 # set up path and ld path
 export PATH="$PATH:/opt/gmt5/bin/:/usr/local/GMT5SAR/bin/:/home/rmsare/software/LAStools/bin/:/usr/lib/gmt/bin:/usr/local/texlive/2014/bin/i386-linux:/usr/local/MATLAB/R2012a/bin/:/home/rmsare/scripts/"
