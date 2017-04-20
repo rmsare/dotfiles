@@ -4,7 +4,10 @@ set nocp
 set nocompatible
 set shell=bash
 set fileformats=unix
-set textwidth=80
+
+" linewidth
+" set textwidth=80
+set colorcolumn=80
 
 " window settings
 set hls
