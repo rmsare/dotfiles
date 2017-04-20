@@ -46,11 +46,12 @@ alias ls='ls -lh --color=auto'
 alias matlab='matlab -nodesktop -nosplash'
 alias clj='java -cp /opt/clojure-1.8.0/clojure-1.8.0.jar clojure.main'
 alias pyton='python3'
+alias ipython='ipython --pylab --term-title --pprint'
 
 # remote hosts
 alias m='ssh rmsare@myth.stanford.edu'
 alias c='ssh rmsare@cees-tool-5.stanford.edu'
 
 # set up path and ld path
-export PATH="$PATH:/opt/gmt5/bin/:/usr/local/GMT5SAR/bin/:/home/rmsare/software/LAStools/bin/:/usr/lib/gmt/bin:/usr/local/texlive/2014/bin/i386-linux:/usr/local/MATLAB/R2012a/bin/:/home/rmsare/scripts/"
+export PATH="$PATH:/opt/gmt5/bin/:/usr/local/GMT5SAR/bin/:/home/rmsare/software/LAStools/bin/:/usr/lib/gmt/bin:/usr/local/texlive/2014/bin/i386-linux:/opt/anaconda3/bin/:/home/rmsare/scripts/"
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
