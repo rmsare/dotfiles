@@ -1,6 +1,7 @@
 """ Utility functions for PhotoScan processing """
 
 import os, sys
+
 import PhotoScan
 
 def align_and_clean_photos(chunk):
@@ -77,5 +78,6 @@ def load_masks_for_chunk(chunk, mask_dir):
         label = camera.label
         mask_fname = mask_dir + label + '_mask.png'
         if os.path.isfile(mask_fname):
-            camera.mask = PhotoScan.Mask.load(mask_fname)
+            this_mask = PhotoScan.Mask.load(mask_fname)
+            camera.mask = this_mask 
 
