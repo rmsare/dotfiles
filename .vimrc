@@ -28,8 +28,8 @@ set splitbelow
 " whitespace
 set autoindent
 set expandtab
-set tabstop=8
-set softtabstop=0
+set tabstop=4
+set softtabstop=4
 set shiftwidth=4
 set smarttab
 
@@ -63,7 +63,6 @@ Plugin 'luochen1990/rainbow'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            
-filetype plugin indent off 
 
 " " Brief help
 " " :PluginList       - lists configured plugins
