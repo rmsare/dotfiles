@@ -1,10 +1,13 @@
 # .zshrc
 # rmsare
 
-# Set up the prompt
-autoload -Uz promptinit
-promptinit
-prompt walters 
+# Use Oh My Zsh
+export ZSH="/home/rmsare/.oh-my-zsh"
+ZSH_THEME="minimal"
+plugins=(
+  git
+)
+source $ZSH/oh-my-zsh.sh
 
 setopt histignorealldups sharehistory
 
@@ -53,5 +56,9 @@ alias m='ssh rmsare@myth.stanford.edu'
 alias c='ssh rmsare@cees-tool-5.stanford.edu'
 
 # set up path and ld path
-export PATH="$PATH:/opt/gmt5/bin/:/usr/local/GMT5SAR/bin/:/home/rmsare/software/LAStools/bin/:/usr/lib/gmt/bin:/usr/local/texlive/2014/bin/i386-linux:/opt/anaconda3/bin/:/home/rmsare/scripts/"
+export PATH="$PATH:/opt/gmt5/bin/:/usr/local/GMT5SAR/bin/:/home/rmsare/software/LAStools/bin/:/usr/lib/gmt/bin:/usr/local/texlive/2014/bin/i386-linux/:/home/rmsare/scripts/"
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+
+# activate anaconda
+. "/home/rmsare/miniconda3/etc/profile.d/conda.sh"
+export PATH="/home/rmsare/miniconda3/bin:$PATH"
