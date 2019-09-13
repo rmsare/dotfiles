@@ -81,16 +81,15 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
-Plugin 'ambv/black'
 
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'dense-analysis/ale'
 Plugin 'luochen1990/rainbow'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            
-filetype plugin indent off
 
 " " Brief help
 " " :PluginList       - lists configured plugins
